@@ -1,0 +1,15 @@
+{
+  "originHash" : "52335d7b4ad7ae5392e86e2799a9e87402bdead0deca0961ef1f3ba5aacc927e",
+  "pins" : [
+    {
+      "identity" : "customnavigationtitle",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Chronos2500/CustomNavigationTitle",
+      "state" : {
+        "revision" : "a5098bbc042db0a03a9dd1000c598073cef03a07",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
