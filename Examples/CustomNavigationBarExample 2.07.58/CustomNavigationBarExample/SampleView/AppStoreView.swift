@@ -41,6 +41,7 @@ struct AppStoreView: View {
                                     .padding(.vertical,5)
                                     .background(Color.blue, in: .capsule)
                             }
+                            .buttonStyle(.plain)
                             Spacer()
                             Text(Image(systemName: "square.and.arrow.up"))
                                 .fontWeight(.semibold)
