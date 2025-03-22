@@ -18,7 +18,7 @@ public struct BackButtonDesign {
     public init(
         cornerRadius: CGFloat = 15,
         blurStyle: UIBlurEffect.Style = .systemThinMaterialDark,
-        iconName: String = "chevron.left",
+        iconName: String = "chevron.backward",
         iconSize: CGFloat = 14,
         iconWeight: UIImage.SymbolWeight = .semibold,
         tintColor: UIColor = .white,

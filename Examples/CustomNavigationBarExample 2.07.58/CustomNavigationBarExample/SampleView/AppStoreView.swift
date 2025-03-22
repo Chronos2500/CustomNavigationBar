@@ -68,7 +68,8 @@ struct AppStoreView: View {
                     }
                 }
                 .scrollClipDisabled()
-                .scrollIndicators(.hidden)
+                .scrollIndicators(.never)
+                .scrollBounceBehavior(.basedOnSize)
                 ScrollView(.horizontal){
                     HStack(spacing: 15){
                         ForEach(0..<5){_ in
@@ -91,6 +92,7 @@ struct AppStoreView: View {
                 .scrollClipDisabled()
                 .scrollTargetBehavior(.viewAligned)
                 .scrollIndicators(.hidden)
+                .scrollBounceBehavior(.basedOnSize)
 
                 Divider()
 
