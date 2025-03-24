@@ -148,7 +148,7 @@ struct CustomBackButtonModifier: ViewModifier {
 struct ContentMarginsModifier: ViewModifier {
     func body(content: Content) -> some View {
         if #available(iOS 17.0, *) {
-            content.contentMargins(.top, 110, for: .scrollIndicators)
+            content.contentMargins(.top, 100, for: .scrollIndicators)
         } else {
             content
         }

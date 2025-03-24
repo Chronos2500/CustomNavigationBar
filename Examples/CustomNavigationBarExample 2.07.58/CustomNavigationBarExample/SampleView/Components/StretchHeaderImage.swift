@@ -2,15 +2,16 @@
 //  StreachHeaderImage.swift
 //  CustomNavigationBarExample
 //
-//  Created by Chronos2500 on 2025/03/22.
-//
+
+//  Here is the code shared in this post:
+//  https://x.com/codelaby/status/1891776284553793566
+//  Thanks to @Codelaby for sharing!
 
 import SwiftUI
 
-struct StreachHeaderImage: View {
+struct StretchHeaderImage: View {
     let imageName: String
     var aspectRatio: CGFloat = 2
-    let allowsOpacityChange: Bool = false
 
     var body: some View {
         GeometryReader { proxy in
@@ -33,9 +34,10 @@ struct StreachHeaderImage: View {
                 // Make the header stretchable
                 .frame(width: size.width, height: stretchableHeight)
                 // Apply opacity when the header collapses
-                .opacity(allowsOpacityChange ? (1 - progress) : 1)
+                //.opacity(1 - progress)
         }
         // Set the aspect ratio of the image
         .aspectRatio(aspectRatio, contentMode: .fit)
     }
 }
+

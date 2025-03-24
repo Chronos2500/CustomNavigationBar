@@ -11,17 +11,24 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                NavigationLink("AppStore Style"){
-                    AppStoreView()
-                }
-                NavigationLink("MusicApp Style"){
+                Section{
+                    NavigationLink("AppStore Style"){
+                        AppStoreView()
+                    }
+                    NavigationLink("MusicApp Style 1"){
+                        MusicAppView1()
+                    }
+                    NavigationLink("MusicApp Style 2"){
+                        MusicAppView2()
 
+                    }
+                } footer: {
+                    Text("Please take a look for reference, as this is a simple UI implementation.")
                 }
-                NavigationLink("Usage in List"){
 
-                }
             }
-            .navigationTitle("Example")
+            .navigationTitle("Demo")
+            .navigationBarTitleDisplayMode(.large)
         }
     }
 }

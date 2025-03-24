@@ -13,7 +13,7 @@ struct AppStoreView: View {
     var body: some View {
         ScrollView{
             VStack(spacing: 25){
-                StreachHeaderImage(imageName: "starlit_sky")
+                StretchHeaderImage(imageName: "starlit_sky")
                     .padding(.horizontal, -25)
                     .headerViewAnchor()
                 HStack(alignment: .top, spacing: 25){
@@ -92,7 +92,7 @@ struct AppStoreView: View {
                 }
                 .scrollClipDisabled()
                 .scrollTargetBehavior(.viewAligned)
-                .scrollIndicators(.hidden)
+                .scrollIndicators(.never)
                 .scrollBounceBehavior(.basedOnSize)
 
                 Divider()
