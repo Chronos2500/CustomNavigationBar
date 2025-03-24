@@ -17,7 +17,7 @@ struct NavBarFading: UIViewControllerRepresentable {
 
     func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
         guard let navigationController = uiViewController.navigationController else { return }
-        // 背景の透明度のみ更新
+        // 背景の透明度
         navigationController.navigationBar.subviews.first?.alpha = alpha
     }
 }
