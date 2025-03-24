@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import CustomNavigationTitle
 import CustomNavigationBar
 
 struct MusicAppView2: View {
@@ -44,7 +43,6 @@ struct MusicAppView2: View {
             backButtonDesign: .musicStyle,
             showCustomBackButtonThresh: 0.97
         )
-        .scrollAwareTitle("Holiday Music Play list")
 
     }
     @ViewBuilder
