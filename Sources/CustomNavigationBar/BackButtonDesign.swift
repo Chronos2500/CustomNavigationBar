@@ -1,7 +1,7 @@
 import SwiftUI
 
 public struct BackButtonDesign {
-    // ボタンの見た目に関する設定
+    // about appearance
     let cornerRadius: CGFloat
     let blurStyle: UIBlurEffect.Style
     let iconName: String
@@ -10,11 +10,12 @@ public struct BackButtonDesign {
     let tintColor: UIColor
     let buttonSize: CGSize
 
-    // アニメーションに関する設定
+    // duration of the button animation
     let animationDuration: TimeInterval
+    // offset of the button animation
     let animationOffset: CGFloat
 
-    // デフォルト値で初期化
+    // default initializer
     public init(
         cornerRadius: CGFloat = 15,
         blurStyle: UIBlurEffect.Style = .systemThinMaterialDark,
@@ -37,7 +38,7 @@ public struct BackButtonDesign {
         self.animationOffset = animationOffset
     }
 
-    // 既定のスタイル
+    // pre-defined designs
     public static var dark: BackButtonDesign {
         BackButtonDesign(
             blurStyle: .systemThinMaterialDark,
