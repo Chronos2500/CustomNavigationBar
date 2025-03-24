@@ -61,6 +61,7 @@ struct ContentView: View {
 }
 ```
 
+
 ### 各種カスタマイズ
 ```
 func scrollAwareNavBar(
@@ -72,8 +73,9 @@ func scrollAwareNavBar(
     showCustomBackButtonThresh: CGFloat = 0.9
 ) -> some View
 ```
-[NavBarFadeMode](Sources/CustomNavigationBar/NavBarFadeMode.swift) : ナビゲーションバーの背景のフェードイン・アウトのモード
-[BackButtonDesign](Sources/CustomNavigationBar/BackButtonDesign.swift) : カスタムバックボタンの見た目やアニメーションの挙動
+* [NavBarFadeMode](Sources/CustomNavigationBar/NavBarFadeMode.swift) : ナビゲーションバーの背景のフェードイン・アウトのモード
+* [BackButtonDesign](Sources/CustomNavigationBar/BackButtonDesign.swift) : カスタムバックボタンの見た目やアニメーションの挙動
+
 
 ### サンプル実装
 [Examplesフォルダのプロジェクト](Examples/CustomNavigationBarExample/CustomNavigationTitleBar/ContentView.swift) のアプリにいくつかのサンプルがありますので、ご参照ください。サンプルでは[CustomNavigationTitle](https://github.com/Chronos2500/CustomNavigationTitle) パッケージも使用されています。

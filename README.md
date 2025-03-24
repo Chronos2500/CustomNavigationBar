@@ -60,6 +60,7 @@ struct ContentView: View {
 }
 ```
 
+
 ### Customization Options
 ``` swift
 func scrollAwareNavBar(
@@ -71,8 +72,9 @@ func scrollAwareNavBar(
     showCustomBackButtonThresh: CGFloat = 0.9
 ) -> some View
 ```
-[NavBarFadeMode](Sources/CustomNavigationBar/NavBarFadeMode.swift): Controls the fade-in and fade-out behavior of the navigation bar background.  
-[BackButtonDesign](Sources/CustomNavigationBar/BackButtonDesign.swift): Defines the appearance and animation behavior of the custom back button.
+* [NavBarFadeMode](Sources/CustomNavigationBar/NavBarFadeMode.swift): Controls the fade-in and fade-out behavior of the navigation bar background.  
+* [BackButtonDesign](Sources/CustomNavigationBar/BackButtonDesign.swift): Defines the appearance and animation behavior of the custom back button.
+
 
 ### Sample Implementations
 Several examples can be found in the [Examples](Examples/CustomNavigationBarExample/CustomNavigationTitleBar/ContentView.swift) folder. These examples also utilize the [CustomNavigationTitle](https://github.com/Chronos2500/CustomNavigationTitle) package.
