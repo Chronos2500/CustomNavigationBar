@@ -7,7 +7,7 @@
 CustomNavigationBar is a simple SwiftUI package that allows you to animate the transparency of the navigation bar background and the appearance of a custom back button based on scrolling.  
 (This effect replicates the UI seen in Apple's App Store and Music app.)
 
-<img src="Assets/appstore_demo.gif" width="200">
+![Demo](Assets/demo.gif)
 
 ## Features
 - Fade-in and fade-out effects for the navigation bar background at customizable scroll positions

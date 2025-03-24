@@ -7,8 +7,7 @@
 CustomNavigationBar は、スクロールに応じてナビゲーションバーの背景透明度やカスタムバックボタンの表示をアニメーションで制御するSwiftUI用のシンプルなパッケージです。  
 （この効果は、AppStoreアプリやApple純正のMusicアプリなどで見られるUIを再現しています。）
 
-<img src="Assets/appstore_demo.gif" width="200">
-
+![Demo](Assets/demo.gif)
 ## 特徴
 - スクロールに合わせた任意の位置でのナビゲーションバー背景のフェードイン・アウトエフェクト
 - カスタムデザインのバックボタンを実装可能
