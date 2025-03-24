@@ -43,6 +43,7 @@ private struct ScrollAwareNavBarModifier: ViewModifier {
         self.backButtonDesign = backButtonDesign
         self.showCustomBackButtonThresh = max(0, min(showCustomBackButtonThresh, 1))
     }
+
     func body(content: Content) -> some View {
         content
             .modifier(ContentMarginsModifier())
