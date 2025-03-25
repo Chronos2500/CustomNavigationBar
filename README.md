@@ -77,7 +77,7 @@ func scrollAwareNavBar(
 
 
 ### Sample Implementations
-Several examples can be found in the [Examples](Examples/CustomNavigationBarExample/CustomNavigationBar/ContentView.swift) folder. These examples also utilize the [CustomNavigationTitle](https://github.com/Chronos2500/CustomNavigationTitle) package.
+Several examples can be found in the [Examples](Examples/CustomNavigationBarExample/CustomNavigationBarExample/ContentView.swift) folder. These examples also utilize the [CustomNavigationTitle](https://github.com/Chronos2500/CustomNavigationTitle) package.
 
 <table>
   <tr>
